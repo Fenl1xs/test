@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <div class="start-screen">
+      <img class="start-img" src="img/main.jpg">
+      <h1 class="start-title">Тест "Идиот или гений?"</h1>
+      <p class="start-desc">Тест, который проверит твои логические и умственные способности</p>
+      <button id="start-button">Начать</button>
+    </div>
+    <div id="display-container">
+      <div class="header">
+        <div class="number-of-count">
+          <span class="number-of-question">0 из 10 вопросов</span>
+        </div>
+        <div class="timer-div">
+          <span>⏰</span>
+          <span class="time-left">30 с</span>
+        </div>
+      </div>
+      <div id="container">
+        <!-- Вопросы от ответы здесь -->
+      </div>
+      <button id="next-button">Дальше</button>
+    </div>
+    <div class="score-container hide">
+      <img class="scope-img" src="">
+      <div id="user-score">Ваш результат 0 из 10.</div>
+      <button id="restart">Сначала</button>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+  </body>
+</html>
